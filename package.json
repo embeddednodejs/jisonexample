@@ -1,0 +1,12 @@
+{
+  "name": "asm1",
+  "version": "1.0.0",
+  "description": "Assembler for a very simple register machine based on Jison",
+  "main": "asm1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Patrick Mulder",
+  "license": "MIT"
+}
