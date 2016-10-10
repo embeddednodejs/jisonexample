@@ -57,12 +57,12 @@ addStmt
 
 loadStmt
 	: L REG ',' HEX
-	-> LoadStmt($1, $4)
+	-> LoadStmt($2, $4)
 	;
 
 storeStmt
 	: S REG 
-	-> StoreStmt($1)
+	-> StoreStmt($2)
 	;
 
 
